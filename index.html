@@ -2,51 +2,44 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>FedEx Tracking</title>
+  <title>Tracking Result</title>
   <style>
-    body {
+     body {
   font-family: Arial, sans-serif;
-   background-image: linear-gradient(rgba(221, 210, 210, 0.8), rgba(222, 208, 208, 0.8)), url("media/image/th\ \(8\).jpg");
+  background-image: linear-gradient(rgba(81, 77, 77, 0.8), rgba(81, 66, 66, 0.8)), url("image/frdex\ background.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   margin: 0;
   padding: 0;
 }
-
 .fedex-container {
   max-width: 500px;
   margin: 80px auto;
+  background-image: linear-gradient(rgba(123, 119, 119, 0.8), rgba(120, 115, 115, 0.8)), url("image/th\ \(2\).jpg");
   padding: 40px;
-  z-index: 0;
- 
-}
-
-header h1 {
-  text-align: center;
-  color: #4d148c;
-  margin-bottom: 20px;
-}
-
-.tracking-form p {
-  text-align: center;
+  box-shadow: 0 0 12px rgba(214, 211, 211, 0.1);
+  border-radius: 10px;
+  text-decoration: underline;
+  text-decoration-color: #7206e4;
+  color: aliceblue;
   
 }
-
+h1 {
+  text-align: center;
+  color: #4d148c;
+}
 form {
   display: flex;
   flex-direction: column;
   gap: 15px;
   margin-top: 20px;
 }
-
 input[type="text"] {
   padding: 12px;
   font-size: 16px;
   border: 2px solid #ccc;
   border-radius: 6px;
 }
-
 button {
   background-color: #4d148c;
   color: white;
@@ -55,58 +48,29 @@ button {
   border: none;
   border-radius: 6px;
   cursor: pointer;
-  transition: background 0.3s ease;
 }
-
 button:hover {
   background-color: #311061;
 }
-
-.help-text {
-  text-align: center;
-  margin-top: 10px;
-  font-size: 14px;
-}
-
-.help-text a {
-  color: #4d148c;
+a {
   text-decoration: none;
+  color: #4d148c;
 }
-.logochild{
-  align-content: start;
-  
-}
-
-
   </style>
 </head>
 <body>
+    <nav>
+        <a href="c:\Users\owner\Downloads\fedex-tracker\public\index.html"></a>
+    </nav>
   <div class="fedex-container">
-    <header>
-      <h1>FedEx Tracking</h1>
-      <nav class="logo">
-        <a class="logochild" href="c:\Users\owner\Downloads\fedex-tracker\public\index.html"><img src="c:\Users\owner\Downloads\fedex-tracker\public\media\image\th (2).jpg" alt=""></a>
-      </nav>
-    </header>
-    
-    <section class="tracking-form">
-      <p>Enter your tracking number below to check your package status.</p>
-      <form action="c:\Users\owner\Downloads\fedex-tracker\views\views\result.html" method="POST">
-        <input type="text" name="trackingNumber" placeholder="Enter Tracking Number" required>
-        <button type="submit">Track</button>
-      </form>
-      <p class="help-text">Need help? <a href="#">Find your tracking number</a></p>
-    </section>
-    <br><br>
-      
-    <section>
-     
+    <h1>Tracking Result</h1><br><br>
+    <h2>Package Sender:Social Security Benefits </h2>
+    <h2>Package Reciever:Jose Diaz </h2>
+    <h2>Package Status: Arrived FedEx Washinton DC FAcility</h2>
+    <h2>package content: Winning Box</h2>
+    <h2>Reciever Address:8091 San Carlos BlvdFort Myers, Fl33967</h2>
 
-    </section>
-
-    <footer>
-      <p>&copy; 2025 FedEx. All rights reserved.</p>
-    </footer>
+    <a href="c:\Users\owner\Downloads\fedex-tracker\public\index.html">Back to Home</a>
   </div>
 </body>
 </html>

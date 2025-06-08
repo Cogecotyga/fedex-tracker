@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>FedEx Tracking</title>
+  <style>
+    body {
+  font-family: Arial, sans-serif;
+   background-image: linear-gradient(rgba(221, 210, 210, 0.8), rgba(222, 208, 208, 0.8)), url("media/image/th\ \(8\).jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 0;
+  padding: 0;
+}
+
+.fedex-container {
+  max-width: 500px;
+  margin: 80px auto;
+  padding: 40px;
+  z-index: 0;
+ 
+}
+
+header h1 {
+  text-align: center;
+  color: #4d148c;
+  margin-bottom: 20px;
+}
+
+.tracking-form p {
+  text-align: center;
+  
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  margin-top: 20px;
+}
+
+input[type="text"] {
+  padding: 12px;
+  font-size: 16px;
+  border: 2px solid #ccc;
+  border-radius: 6px;
+}
+
+button {
+  background-color: #4d148c;
+  color: white;
+  padding: 12px;
+  font-size: 16px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+button:hover {
+  background-color: #311061;
+}
+
+.help-text {
+  text-align: center;
+  margin-top: 10px;
+  font-size: 14px;
+}
+
+.help-text a {
+  color: #4d148c;
+  text-decoration: none;
+}
+.logochild{
+  align-content: start;
+  
+}
+
+
+  </style>
+</head>
+<body>
+  <div class="fedex-container">
+    <header>
+      <h1>FedEx Tracking</h1>
+      <nav class="logo">
+        <a class="logochild" href="c:\Users\owner\Downloads\fedex-tracker\public\index.html"><img src="c:\Users\owner\Downloads\fedex-tracker\public\media\image\th (2).jpg" alt=""></a>
+      </nav>
+    </header>
+    
+    <section class="tracking-form">
+      <p>Enter your tracking number below to check your package status.</p>
+      <form action="c:\Users\owner\Downloads\fedex-tracker\views\views\result.html" method="POST">
+        <input type="text" name="trackingNumber" placeholder="Enter Tracking Number" required>
+        <button type="submit">Track</button>
+      </form>
+      <p class="help-text">Need help? <a href="#">Find your tracking number</a></p>
+    </section>
+    <br><br>
+      
+    <section>
+     
+
+    </section>
+
+    <footer>
+      <p>&copy; 2025 FedEx. All rights reserved.</p>
+    </footer>
+  </div>
+</body>
+</html>
